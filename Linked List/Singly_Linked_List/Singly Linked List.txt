@@ -1,0 +1,9 @@
+# Problem with the array 
+-> Either the size is fixed and preallocated(in both fixed and variable size array ) Or worst case insertion at the end is O(n).
+(it is solved by dynamic size array like vector in c++)
+->Insertion in the middle or begining or deletion is costly.
+->Implemention of data structures like queue and deque is complex with arrays.
+
+# Advantage of linked list over Arrays 
+-> The idea is to drop the contiguous memory requirements so that insertion,deletion can efficiently happen at the middle also.
+->No need to pre-allocate the space.
